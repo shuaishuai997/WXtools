@@ -1,0 +1,69 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "首页",
+			 "navigationBarBackgroundColor":"#55aaff"
+		}
+	},{
+		"path": "pages/index/login",
+		"style": {
+			"navigationBarTitleText": "授权",
+			"navigationBarBackgroundColor":"#628efd",
+			"backgroundColor":"#F1F1F1"
+		}	
+		},
+	{
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText": "",
+			"navigationBarBackgroundColor":"#5d84fc",
+			"backgroundColor":"#F1F1F1",
+			"navigationStyle":"custom"
+		}	
+		},{
+		"path": "pages/analysis/analysis",
+		"style": {
+			"navigationBarTitleText": "视频解析",
+			"navigationBarBackgroundColor":"#55aaff"
+		}	
+	  	},{
+		"path":"pages/teacher/teacher",
+			"style":{
+			"navigationBarTitleText": "教程",
+			"navigationBarBackgroundColor":"#FFA200"
+		}	
+		},{
+		"path":"pages/analysis/history",
+			"style":{
+			"navigationBarTitleText": "解析记录",
+			"navigationBarBackgroundColor":"#628efd",
+			"backgroundColor":"#F1F1F1"
+		}	
+		}
+		],
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	         "selectedIconPath":"static/index.png",
+			  "iconPath":"static/index.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/my/my",
+	       "selectedIconPath":"static/my.png",
+	       "iconPath":"static/my.png",
+	        "text": "我的"
+	    }]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "工具",
+		"navigationBarBackgroundColor": "#ffaaff",
+		"backgroundColor": "#FFFFFF"
+	}
+	
+}

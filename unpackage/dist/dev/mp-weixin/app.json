@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/login",
+    "pages/my/my",
+    "pages/analysis/analysis",
+    "pages/teacher/teacher",
+    "pages/analysis/history"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "工具",
+    "navigationBarBackgroundColor": "#ffaaff",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "static/index.png",
+        "iconPath": "static/index.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "selectedIconPath": "static/my.png",
+        "iconPath": "static/my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "downloadFile": 60000
+  },
+  "usingComponents": {
+    "uni-pop": "/components/uni-popup/uni-popup",
+    "textscroll": "/components/screenTextScroll"
+  }
+}

@@ -1,0 +1,14 @@
+
+.buttonbox {
+
+	padding: 0 18rpx;
+}
+.btnc {
+	margin: 10rpx 0;
+	width: 348rpx;
+	font-size: 35rpx;
+	border-radius: 7rpx;
+	background: rgb(243, 123, 29);
+	box-shadow: 0px 10px 30px 0px rgba(243, 123, 29, 0.42);
+}
+

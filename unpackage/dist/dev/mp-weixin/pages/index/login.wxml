@@ -1,0 +1,1 @@
+<view class="flex"><button style="background-color:#39B54A;color:#FFFFFF;" open-type="getUserInfo" size="default" data-event-opts="{{[['getuserinfo',[['getuser',['$event']]]]]}}" bindgetuserinfo="__e">点进微信授权</button></view>

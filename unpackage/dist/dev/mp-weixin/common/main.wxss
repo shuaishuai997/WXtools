@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 解决头条小程序组件内引入字体不生效的问题 */
+page{
+	margin: 0;
+	padding: 0;
+}
+.advertisement{
+			height: 450rpx;
+			width: 100%;
+			background: #E03997;
+}
+
